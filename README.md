@@ -1,7 +1,6 @@
 # Cristhian Loor Quimí — Portfolio
 
-Mi landing page personal. Hecha con React, Vite, Framer Motion y una estética inspirada en la sublimación (colores que sangran, gradientes, tinta sobre papel digital).
-
+Mi landing page personal. Hecha con una estética inspirada en la sublimación.
 ## Stack
 
 - React 18 + Vite
@@ -28,7 +27,9 @@ npm run dev
 
 ## Por qué existe esto
 
-No es solo un portfolio bonito. Es una pieza más de un portafolio de producto real: diseñado con Figma, codeado con cuidado, y con una narrativa visual que conecta lo que estudio (backend/clean architecture) con lo que construyo (Sublirium, proyectos, UX).
+Para mostrar una pieza de mi portfolio. Una parte de mi profesión y desarrollo académico.
+Una forma de expresar mi identidad a través de lo que me gusta
+y lo que hago. La  emoción de lo cotidiano y la formación de procesos constructivos con esfuerzo y pasión.
 
 ---
-Hecho en Guayaquil, Ecuador. Con café, música y clean architecture.
+Hecha en Guayaquil, Ecuador.
