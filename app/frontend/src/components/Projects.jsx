@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Github, Figma } from 'lucide-react';
 import { Card } from './ui/card';
 
 export const Projects = ({ data }) => {
@@ -82,6 +82,35 @@ export const Projects = ({ data }) => {
                     </span>
                   ))}
                 </div>
+
+                {(project.github || project.figma) && (
+                  <div className="project-links">
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link"
+                        aria-label={`Ver ${project.name} en GitHub`}
+                      >
+                        <Github size={16} />
+                        GitHub
+                      </a>
+                    )}
+                    {project.figma && (
+                      <a
+                        href={project.figma}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link project-link--figma"
+                        aria-label={`Ver ${project.name} en Figma`}
+                      >
+                        <Figma size={16} />
+                        Figma
+                      </a>
+                    )}
+                  </div>
+                )}
               </Card>
             </motion.div>
           ))}

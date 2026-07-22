@@ -527,6 +527,45 @@ section {
   color: rgba(248, 247, 242, 0.8);
 }
 
+.project-links {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 217, 255, 0.3);
+  color: var(--ink-cyan);
+  background: rgba(0, 217, 255, 0.06);
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.project-link:hover {
+  background: rgba(0, 217, 255, 0.15);
+  border-color: var(--ink-cyan);
+  transform: translateY(-2px);
+}
+
+.project-link--figma {
+  border-color: rgba(162, 89, 255, 0.3);
+  color: #a259ff;
+  background: rgba(162, 89, 255, 0.06);
+}
+
+.project-link--figma:hover {
+  background: rgba(162, 89, 255, 0.15);
+  border-color: #a259ff;
+}
+
 /* ============================================
    SUBLIRIUM SECTION
    ============================================ */

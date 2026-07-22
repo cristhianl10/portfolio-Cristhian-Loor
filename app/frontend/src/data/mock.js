@@ -2,11 +2,11 @@ export const portfolioData = {
   hero: {
     name: "Cristhian Loor Quimí",
     location: "Guayaquil, Ecuador",
-    tagline: "Estudiante de Ingeniería de Software con foco en backend (.NET, Java) y una pata firme en UX/UI — construyo productos reales y dirijo mi propio emprendimiento.",
+    tagline: "Estudiante de Ingeniería de Software especializado en backend y UX/UI, con experiencia académica en el ciclo de vida del software, bases de datos relacionales y no relacionales, y diseño de sistemas.",
     cvUrl: "#"
   },
   about: {
-    description: "Estudio en la Universidad de Guayaquil, enfocado en desarrollo backend con C#/.NET y Clean Architecture. También tengo experiencia sólida en UX/UI con investigación real de usuario (entrevistas, mapas de empatía, journey maps). Dirijo Sublirium, mi emprendimiento de sublimación, y cofundo el club de IA de mi carrera.",
+    description: "Estudiante de Ingeniería de Software en la Universidad de Guayaquil. Experiencia académica en desarrollo backend, frontend, UX/UI, investigación de usuario con entrevistas, mapas de empatía y journey maps. Diseño de sistemas, documentación técnica y manual de usuario. Bases de datos relacionales y no relacionales. Dirijo Sublirium, mi emprendimiento de sublimación.",
     stack: [
       "C#/.NET",
       "Clean Architecture",
@@ -25,21 +25,27 @@ export const portfolioData = {
       name: "StockFlow",
       description: "SaaS B2B de gestión de inventario para pequeños negocios latinoamericanos. Flutter + Supabase, multitenancy vía RLS, planes escalonados (Basic/Business/Enterprise).",
       tags: ["Flutter", "Supabase", "SaaS", "Multitenancy"],
-      category: "Backend & Mobile"
+      category: "Backend & Mobile",
+      github: "https://github.com/cristhianl10/Saas-inventario",
+      figma: ""
     },
     {
       id: 2,
       name: "Literapp",
       description: "Club de lectura digital, proyecto en equipo con JSP/Servlets, Java, Supabase/PostgreSQL, documentación de ciclo de vida completa.",
       tags: ["Java", "JSP/Servlets", "PostgreSQL", "Supabase"],
-      category: "Full-Stack"
+      category: "Full-Stack",
+      github: "https://github.com/erigsml/literapp",
+      figma: ""
     },
     {
       id: 3,
       name: "Dr UX",
       description: "Proyecto de gestión de catequesis parroquial, metodología Double Diamond, entrevistas de usuario, empatía y journey maps en Figma.",
       tags: ["UX Research", "Figma", "Double Diamond", "User Interviews"],
-      category: "UX/UI"
+      category: "UX/UI",
+      github: "",
+      figma: "https://www.figma.com/design/sq5JLcLzCFLWJm7M37R8P8/UX---CATEQUESIS---PROYECTO-PARCIAL?node-id=460-1582&t=QxSFMbmmsbWthGsQ-1"
     }
   ],
   sublirium: {
