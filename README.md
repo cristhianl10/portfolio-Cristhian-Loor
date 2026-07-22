@@ -1,6 +1,6 @@
 # Cristhian Loor Quimí — Portfolio
 
-Mi landing page personal. Hecha con una estética inspirada en la sublimación.
+Mi landing page personal. Hecha con un colores inspirados en la sublimación.
 ## Stack
 
 - React 18 + Vite
