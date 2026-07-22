@@ -10,8 +10,7 @@ export const portfolioData = {
     stack: [
       "C#/.NET",
       "Clean Architecture",
-      "Entity Framework",
-      "Java",
+      "Spring Boot",      "Java",
       "JavaScript",
       "PHP",
       "Flutter/Dart",
@@ -22,7 +21,7 @@ export const portfolioData = {
       "MongoDB",
       "Figma",
       "Design System",
-      "UX Research"
+      "UX/UI"
     ]
   },
   projects: [
