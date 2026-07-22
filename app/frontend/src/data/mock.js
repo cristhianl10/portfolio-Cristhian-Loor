@@ -38,7 +38,7 @@ export const portfolioData = {
     {
       id: 2,
       name: "Literapp",
-      description: "Club de lectura digital, proyecto en equipo con JSP/Servlets, Java, Supabase/PostgreSQL, documentación de ciclo de vida completa.",
+      description: "Club de ltectura digital, proyecto en equipo con JSP/Servlets, Java, Supabase/PostgreSQL, documentación de ciclo de vida completa.",
       tags: ["Java", "JSP/Servlets", "PostgreSQL", "Supabase"],
       category: "Full-Stack",
       github: "https://github.com/erigsml/literapp",
@@ -95,6 +95,6 @@ export const portfolioData = {
   contact: {
     linkedin: "https://linkedin.com/in/cristhian-loor",
     github: "https://github.com/cristhianl10",
-    email: "cristhian.loor@example.com"
+    email: "cristhian.loor25@outlook.com"
   }
 };
