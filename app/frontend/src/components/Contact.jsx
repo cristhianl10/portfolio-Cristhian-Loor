@@ -80,7 +80,15 @@ export const Contact = ({ data }) => {
               animate={inView ? { opacity: 1 } : { opacity: 0 }}
               transition={{ delay: 0.7 }}
             >
-              <Button className="cv-download-btn">
+              <Button 
+              className="cv-download-btn"
+              onClick={() => {
+                const a = document.createElement('a');
+                a.href = '/cv-cristhian-loor.pdf';
+                a.download = 'CV-Cristhian-Loor.pdf';
+                a.click();
+              }}
+            >
                 <Download size={20} className="mr-2" />
                 Descargar CV Completo
               </Button>
