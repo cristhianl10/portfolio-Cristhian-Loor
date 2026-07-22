@@ -113,6 +113,15 @@ export const Hero = ({ data }) => {
           {data.tagline}
         </motion.p>
 
+        <motion.p
+          className="hero-philosophy"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 1.0 }}
+        >
+          "El software no empieza desde el código, empieza desde el usuario."
+        </motion.p>
+
         <motion.div
           className="hero-cta"
           initial={{ opacity: 0, y: 30 }}

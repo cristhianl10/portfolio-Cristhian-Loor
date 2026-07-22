@@ -12,10 +12,16 @@ export const portfolioData = {
       "Clean Architecture",
       "Entity Framework",
       "Java",
+      "JavaScript",
+      "PHP",
       "Flutter/Dart",
       "Supabase",
       "PostgreSQL",
+      "Oracle SQL",
+      "SQL Server",
+      "MongoDB",
       "Figma",
+      "Design System",
       "UX Research"
     ]
   },
@@ -27,7 +33,8 @@ export const portfolioData = {
       tags: ["Flutter", "Supabase", "SaaS", "Multitenancy"],
       category: "Backend & Mobile",
       github: "https://github.com/cristhianl10/Saas-inventario",
-      figma: ""
+      figma: "",
+      url: ""
     },
     {
       id: 2,
@@ -36,7 +43,8 @@ export const portfolioData = {
       tags: ["Java", "JSP/Servlets", "PostgreSQL", "Supabase"],
       category: "Full-Stack",
       github: "https://github.com/erigsml/literapp",
-      figma: ""
+      figma: "",
+      url: ""
     },
     {
       id: 3,
@@ -45,14 +53,35 @@ export const portfolioData = {
       tags: ["UX Research", "Figma", "Double Diamond", "User Interviews"],
       category: "UX/UI",
       github: "",
-      figma: "https://www.figma.com/design/sq5JLcLzCFLWJm7M37R8P8/UX---CATEQUESIS---PROYECTO-PARCIAL?node-id=460-1582&t=QxSFMbmmsbWthGsQ-1"
+      figma: "https://www.figma.com/design/sq5JLcLzCFLWJm7M37R8P8/UX---CATEQUESIS---PROYECTO-PARCIAL?node-id=460-1582&t=QxSFMbmmsbWthGsQ-1",
+      url: ""
+    },
+    {
+      id: 4,
+      name: "Catálogo Sublirium",
+      description: "Sitio web catálogo de Sublirium, mi emprendimiento de sublimación en Guayaquil. Desarrollado con HTML/CSS/JS y desplegado en Vercel.",
+      tags: ["HTML", "CSS", "JavaScript", "Vercel"],
+      category: "Frontend",
+      github: "https://github.com/cristhianl10/sitioweb_sublirium",
+      figma: "",
+      url: "https://sitioweb-sublirium.vercel.app"
+    },
+    {
+      id: 5,
+      name: "Gestión de Reservas de Laboratorio",
+      description: "Sistema de gestión de reservas de laboratorio desarrollado en C# con arquitectura limpia y buenas prácticas de desarrollo de software.",
+      tags: ["C#", ".NET", "Clean Architecture"],
+      category: "Backend",
+      github: "https://github.com/cristhianl10/Laboratory-reservation-management",
+      figma: "",
+      url: ""
     }
   ],
   sublirium: {
     title: "Sublirium",
     tagline: "El arte de regalar emociones",
-    description: "Dirijo mi propio negocio de sublimación y productos personalizados en Guayaquil. Creamos mugs, camisetas, gorras y más con diseños personalizados que transforman objetos cotidianos en regalos memorables.",
-    products: ["Mugs personalizados", "Camisetas", "Gorras", "Productos a medida"]
+    description: "Dirijo mi propio negocio de sublimación y productos personalizados en Guayaquil. Tazas, camisetas, gorras y más con diseños personalizados, con el objetivo de generar diseños emocionales transmitidos mediante la personalización.",
+    products: ["Termos personalizados", "Camisetas", "Gorras", "Productos a medida"]
   },
   contact: {
     linkedin: "https://linkedin.com/in/cristhian-loor",

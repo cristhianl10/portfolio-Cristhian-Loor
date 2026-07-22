@@ -83,7 +83,7 @@ export const Projects = ({ data }) => {
                   ))}
                 </div>
 
-                {(project.github || project.figma) && (
+                {(project.github || project.figma || project.url) && (
                   <div className="project-links">
                     {project.github && (
                       <a
@@ -107,6 +107,18 @@ export const Projects = ({ data }) => {
                       >
                         <Figma size={16} />
                         Figma
+                      </a>
+                    )}
+                    {project.url && (
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link project-link--live"
+                        aria-label={`Ver ${project.name} en vivo`}
+                      >
+                        <ArrowUpRight size={16} />
+                        Ver sitio
                       </a>
                     )}
                   </div>

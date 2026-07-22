@@ -20,7 +20,7 @@ export const Contact = ({ data }) => {
         >
           <div className="section-header">
             <span className="section-number">04</span>
-            <h2 className="section-title">Conectemos</h2>
+            <h2 className="section-title">Contacto</h2>
           </div>
 
           <div className="contact-content">
@@ -30,9 +30,8 @@ export const Contact = ({ data }) => {
               animate={inView ? { opacity: 1 } : { opacity: 0 }}
               transition={{ delay: 0.3 }}
             >
-              Abierto a oportunidades de desarrollo backend en Guayaquil.
-              <br />
-              ¿Te gustaría trabajar juntos?
+              Abierto a oportunidad laboral inmediata.<br />
+              Disponible para proyectos, prácticas y nuevas oportunidades.
             </motion.p>
 
             <motion.div 
@@ -95,7 +94,7 @@ export const Contact = ({ data }) => {
           animate={inView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ delay: 1 }}
         >
-          <p>© 2025 Cristhian Loor Quimí. Hecho con café y Clean Architecture.</p>
+          <p>© 2025 Cristhian Loor Quimí. Diseñado y desarrollado desde Guayaquil.</p>
         </motion.div>
       </div>
     </footer>

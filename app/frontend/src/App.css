@@ -183,7 +183,18 @@ body {
   line-height: 1.6;
   color: rgba(248, 247, 242, 0.7);
   max-width: 800px;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-philosophy {
+  font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+  font-style: italic;
+  color: var(--ink-cyan);
+  max-width: 600px;
+  margin-bottom: 2.5rem;
+  opacity: 0.85;
+  border-left: 2px solid var(--ink-cyan);
+  padding-left: 1rem;
 }
 
 .hero-cta {
@@ -498,7 +509,7 @@ section {
 .project-category {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.875rem;
-  color: var(--ink-magenta);
+  color: var(--paper-white);
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -564,6 +575,17 @@ section {
 .project-link--figma:hover {
   background: rgba(162, 89, 255, 0.15);
   border-color: #a259ff;
+}
+
+.project-link--live {
+  border-color: rgba(255, 190, 11, 0.3);
+  color: var(--ink-yellow);
+  background: rgba(255, 190, 11, 0.06);
+}
+
+.project-link--live:hover {
+  background: rgba(255, 190, 11, 0.15);
+  border-color: var(--ink-yellow);
 }
 
 /* ============================================
