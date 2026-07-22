@@ -84,6 +84,16 @@ export const portfolioData = {
       github: "https://github.com/cristhianl10/POS",
       figma: "",
       url: ""
+    },
+    {
+      id: 7,
+      name: "Petite — Sistema Veterinario",
+      description: "Sistema de gestión veterinaria desarrollado en PHP con conexión a base de datos. Proyecto en equipo para el manejo de pacientes, citas y registros clínicos.",
+      tags: ["PHP", "MySQL", "Full-Stack"],
+      category: "Full-Stack",
+      github: "https://github.com/erigsml/petite",
+      figma: "",
+      url: ""
     }
   ],
   sublirium: {
