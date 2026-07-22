@@ -74,6 +74,16 @@ export const portfolioData = {
       github: "https://github.com/cristhianl10/Laboratory-reservation-management",
       figma: "",
       url: ""
+    },
+    {
+      id: 6,
+      name: "POS System",
+      description: "Sistema de punto de venta con arquitectura en capas (Api, Application, Domain, Infrastructure, Utilities). Implementa patrones Repository y Unit of Work, separación de responsabilidades y API REST probada con Postman.",
+      tags: ["C#", ".NET", "Entity Framework", "SQL Server", "Clean Architecture"],
+      category: "Backend",
+      github: "https://github.com/cristhianl10/POS",
+      figma: "",
+      url: ""
     }
   ],
   sublirium: {
