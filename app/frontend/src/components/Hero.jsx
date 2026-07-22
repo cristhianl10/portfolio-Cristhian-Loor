@@ -138,7 +138,12 @@ export const Hero = ({ data }) => {
           <Button 
             variant="outline" 
             className="cta-secondary"
-            onClick={() => window.open(data.cvUrl, '_blank')}
+            onClick={() => {
+              const a = document.createElement('a');
+              a.href = data.cvUrl;
+              a.download = 'CV-Cristhian-Loor.pdf';
+              a.click();
+            }}
           >
             <Download className="mr-2" size={20} />
             Descargar CV

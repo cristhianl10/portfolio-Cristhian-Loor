@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Cristhian Loor Quimí",
     location: "Guayaquil, Ecuador",
     tagline: "Estudiante de Ingeniería de Software especializado en backend y UX/UI, con experiencia académica en el ciclo de vida del software, bases de datos relacionales y no relacionales, y diseño de sistemas.",
-    cvUrl: "#"
+    cvUrl: "/cv-cristhian-loor.pdf"
   },
   about: {
     description: "Estudiante de Ingeniería de Software en la Universidad de Guayaquil. Experiencia académica en desarrollo backend, frontend, UX/UI, investigación de usuario con entrevistas, mapas de empatía y journey maps. Diseño de sistemas, documentación técnica y manual de usuario. Bases de datos relacionales y no relacionales. Dirijo Sublirium, mi emprendimiento de sublimación.",
